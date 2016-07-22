@@ -3,9 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-namespace assignment_4
+/**
+ * author:Shahzaib Malik           
+ * student id: 300852792
+ * course id: COMP-123
+ * 
+ */ 
+  namespace assignment_4
 {
+    /**
+     * this is the main driver class of the program
+     * its used to simulate dicerolls of two dices
+     * and adds the total number of the times each sum 
+     * appeared 
+     * @method Main(string[])
+     */ 
     class Program
     {
         static void Main(string[] args)
@@ -14,10 +26,10 @@ namespace assignment_4
             int[] diceRolls = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 };
 
             int[] tally = new int[13];
-            int maxRolls = 36000;
+            int maxRls = 36000;
 
-            // builds the array
-            for (int index = 0; index < maxRolls; index++)
+            
+            for (int i = 0; i < maxRls; i++)
             {
                 int firstDie = random.Next(1, 7);
                 int secondDie = random.Next(1, 7);
@@ -33,12 +45,10 @@ namespace assignment_4
                 }
                 */
             }
-            for (int index = 2; index < 13; index++)
+            for (int i = 2; i < 13; i++)
             {
-                Console.WriteLine("{0}: {1} ", index, tally[index]);
+                Console.WriteLine("{0}: {1} ", i, tally[i]);
             }
-
-
         }
     }
 }
