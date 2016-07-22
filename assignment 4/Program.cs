@@ -7,7 +7,7 @@ using System.Threading.Tasks;
  * author:Shahzaib Malik           
  * student id: 300852792
  * course id: COMP-123
- * 
+ * version 1.1 //final version
  */ 
   namespace assignment_4
 {
@@ -22,13 +22,12 @@ using System.Threading.Tasks;
     {
         static void Main(string[] args)
         {
+            //Random class used to throw die in a random manner
             Random random = new Random();
             int[] diceRolls = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 };
-
             int[] tally = new int[13];
+            //maximmum number the dice is rolled
             int maxRls = 36000;
-
-            
             for (int i = 0; i < maxRls; i++)
             {
                 int firstDie = random.Next(1, 7);
