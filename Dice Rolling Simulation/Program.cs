@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  * course id: COMP-123
  * version 1.1 //final version
  */ 
-  namespace assignment_4
+  namespace Dice_Rolling_Simulation
 {
     /**
      * this is the main driver class of the program

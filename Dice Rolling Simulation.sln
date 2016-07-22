@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assignment 4", "assignment 4\assignment 4.csproj", "{64F78EA9-7C38-4120-B131-EA487DD2C6EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dice Rolling Simulation", "assignment 4\Dice Rolling Simulation.csproj", "{64F78EA9-7C38-4120-B131-EA487DD2C6EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
